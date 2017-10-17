@@ -1,0 +1,4 @@
+/home/neo/clion-2017.2.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/neo/CLionProjects/Advanced_C-/vector
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neo/CLionProjects/Advanced_C-/vector

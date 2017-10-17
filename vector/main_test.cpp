@@ -3,8 +3,8 @@
 #include <gtest/gtest.h>
 
 TEST(VectorTest, VectorSize){
-    VectorM<int, 10> test;
-    EXPECT_EQ(10, test.size());
+    VectorM<int, 100> test;
+    EXPECT_EQ(100, test.size());
 }
 
 TEST(VectorTest, VectorAccessOperator){
@@ -21,6 +21,12 @@ TEST(VectorTest, VectorEqualOperator){
 TEST(VectorTest, VectorNonDefaultTemplateValue){
     VectorM<int, 10,100> test;
     EXPECT_EQ(100, test[1]);
+}
+
+TEST(VectorTest, VectorTestMultiplyOperator){
+    VectorM<int, 3, 10> test;
+    VectorM<int, 3, 1> test2;
+    EXPECT_EQ(30, test*test2);
 }
 
 int main(int argc, char **argv) {

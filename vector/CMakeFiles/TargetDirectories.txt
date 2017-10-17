@@ -1,0 +1,4 @@
+/home/neo/CLionProjects/Advanced_C-/vector/CMakeFiles/rebuild_cache.dir
+/home/neo/CLionProjects/Advanced_C-/vector/CMakeFiles/runTests.dir
+/home/neo/CLionProjects/Advanced_C-/vector/CMakeFiles/edit_cache.dir
+/home/neo/CLionProjects/Advanced_C-/vector/CMakeFiles/vector.dir

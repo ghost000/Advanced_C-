@@ -3,7 +3,7 @@ project(vector)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES main.cpp Vector.cpp Vector.h)
+set(SOURCE_FILES main.cpp Vector.cpp)
 add_executable(vector ${SOURCE_FILES})
 
 # Locate GTest

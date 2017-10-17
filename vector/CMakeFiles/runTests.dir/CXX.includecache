@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/neo/CLionProjects/Advanced_C-/vector/Vector.cpp
+iostream
+-
+algorithm
+-
+
+/home/neo/CLionProjects/Advanced_C-/vector/main_test.cpp
+Vector.cpp
+/home/neo/CLionProjects/Advanced_C-/vector/Vector.cpp
+gtest/gtest.h
+-
+
