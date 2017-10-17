@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_test.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_test.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vector.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Vector.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vector.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -170,12 +170,12 @@
       <updated>1508218493639</updated>
       <workItem from="1508218496747" duration="848000" />
       <workItem from="1508221588074" duration="7857000" />
-      <workItem from="1508253804567" duration="9100000" />
+      <workItem from="1508253804567" duration="9168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17805000" />
+    <option name="totallyTimeSpent" value="17873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -352,6 +352,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#17#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vector.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -361,16 +371,6 @@
             <element signature="e#87#135#0" expanded="true" />
             <element signature="e#665#689#0" expanded="true" />
             <element signature="e#798#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#17#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
