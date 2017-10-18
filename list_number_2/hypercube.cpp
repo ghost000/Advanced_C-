@@ -1,8 +1,5 @@
 #include <iostream>
 
-//template<int Length, int Dimension>
-//class HyperCube;
-
 template<int Length, int Dimension>
 class HyperCube{
 	public:
