@@ -8,11 +8,11 @@ class A
 
 public:
 
-    	A(const char* p)
+    	A(const std::string & p)
     	{
-        	size_t size = strlen(p) + 1;
+        	size_t size = p.size();
         	data = new char[size];
-        	memcpy(data, p, size);
+        	strncpy(data, p.c_str(), size);
     	}
 	~A()
     	{
@@ -31,19 +31,19 @@ public:
         	that.data = nullptr;
     	}
 	
-
 	char* get(){ return data; }
 };
 
 int main(int argc, char *argv[]){
 
 	A a {"test"};
-	char* ch = a.get();
-	for( int i = 0; i <= strlen(ch); i++)
-		std::cout << ch[i] << std::endl;
+	std::cout << a.get() << std::endl;
 	A b(a);
-	//std::cout << b.data << std::endl;
+	std::cout << b.get() << std::endl;
 	A c(std::move(b));
-	//std::cout << c.data << std::endl;
+	std::cout << c.get() << std::endl;
+	const std::string ss{"lolo"};
+	A d(ss);
+	std::cout << d.get() << std::endl;
 	return 0;
 }
